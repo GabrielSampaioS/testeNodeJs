@@ -1,0 +1,28 @@
+aula 1
+    Iniciando servidor html e passando txt para navegador
+
+aula 2
+    Passando tag para p navegador
+
+aula 3
+    utilizando o require('url') para ler as informações 
+
+aula 4
+    Com o http criamos o nosso server e alteramos a resposta baseando na URL acessada, utilizando if e else para determinado parametro
+
+aula 5
+    Utilizando o file system para separar os arquivos html, passando eles como resposta
+
+aula 6 
+    Pegando o dado do formunlario HTML e salvando em um .txt
+
+aula 7
+    Apenas atualizando o codigo da aula 6 para ao invez de sobescrever, adicionar (append) e testando criar uma pagina para 404
+    Usando css no html
+
+aula 8 
+    Roteamento de paginas simples.
+
+aula 9
+    
+

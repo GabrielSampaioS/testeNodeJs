@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo em arquivos</title>
+    <style>
+        /* Estilo para o cabeçalho h1 */
+        h1 {
+            color: #333; /* Cor do texto */
+            font-size: 24px; /* Tamanho da fonte */
+            text-align: center; /* Alinhamento do texto */
+            margin-top: 50px; /* Margem superior */
+        }
+
+        /* Estilo para o formulário */
+        form {
+            text-align: center; /* Alinhamento do formulário */
+            margin-top: 20px; /* Margem superior */
+        }
+
+        /* Estilo para o campo de entrada de texto */
+        input[type="text"] {
+            width: 200px; /* Largura do campo de entrada */
+            padding: 10px; /* Preenchimento interno */
+            border: 1px solid #ccc; /* Borda */
+            border-radius: 5px; /* Raio da borda */
+            margin-right: 10px; /* Margem à direita */
+        }
+
+        /* Estilo para o botão de envio */
+        input[type="submit"] {
+            padding: 10px 20px; /* Preenchimento interno */
+            background-color: #007bff; /* Cor de fundo */
+            color: #fff; /* Cor do texto */
+            border: none; /* Sem borda */
+            border-radius: 5px; /* Raio da borda */
+            cursor: pointer; /* Cursor */
+        }
+
+        /* Estilo para o botão de envio quando hover */
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Como você se chama? </h1>
+    <!-- o action='/' mostra que seremos retornando para este próprio arquivo após o envio -->
+    <form action="/" method="get">
+        <input type="text" name="name" placeholder="Digite seu nome ">
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
