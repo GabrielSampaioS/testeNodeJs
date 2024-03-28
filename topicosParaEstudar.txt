@@ -1,0 +1,16 @@
+functions async, exemplo:
+
+async function deposit() {
+    let accountName = await askAccountName();
+}
+
+function askAccountName() {
+    return new Promise((resolve, reject) => {
+        inquirer.prompt([{
+            name: 'Name',
+            message: 'Qual o nome da conta:'
+        }]).then((answer) => {
+            resolve(answer['Name']); // Resolvendo a promessa com o nome da conta
+        }).catch(err => reject(err)); // Rejeitando a promessa em caso de erro
+    });
+}
